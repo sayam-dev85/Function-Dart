@@ -1,8 +1,8 @@
-main (){
-  person(name: "Abu Sayam", city: "Saidpur", age: 23);
-
+int subtract (int a , int b){
+  return a - b;
 }
 
-person ({required String name, required String city, required int age}){
-  print("My name is $name, city is $city, and age is $age ");
+main (){
+  int result = subtract(6, 5);
+  print(result);
 }
